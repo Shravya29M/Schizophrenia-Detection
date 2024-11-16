@@ -1,4 +1,3 @@
-
 # Investigation of custom CNN architecture for Schizophrenia detection using generalized sMRI data
 
 This project aims to predict schizophrenia from MRI scan data using deep learning techniques. The MRI scans are preprocessed and augmented to increase the robustness of the model. The final model is a 3D CNN that is trained on a binary classification task (Schizophrenia vs. Healthy). This repository includes code for data preprocessing, augmentation, model training, evaluation, and cross-validation.
@@ -13,9 +12,8 @@ This project aims to predict schizophrenia from MRI scan data using deep learnin
   - `healthy/`: Contains resized MRI scans for healthy subjects.
   - `schizophrenia/`: Contains resized MRI scans for schizophrenia subjects.
 
-- **s1.h5**: The trained model in HDF5 format.
-- **s2.keras**: The trained model in Keras format.
 - **code.py**: Contains the full implementation of preprocessing, augmentation, model training, and evaluation.
+- **code_for_5cross_validation.py**: Contains the full implementation of preprocessing, augmentation, model training, and evaluation.
 
 ## Requirements
 
